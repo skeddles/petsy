@@ -1,10 +1,8 @@
 import type { Metadata } from "next";
 import "./globals.css";
-
-import { Quicksand } from 'next/font/google';
-export const quicksand = Quicksand({ subsets: ['latin'], weight: ['400', '700'] });
-
 import { SiteHeader } from "./ui/header";
+import { Quicksand } from 'next/font/google';
+const quicksand = Quicksand({ subsets: ['latin'], weight: ['400', '700'] });
 
 export const metadata: Metadata = {
   title: "Petsy",
